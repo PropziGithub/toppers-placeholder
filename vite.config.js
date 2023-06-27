@@ -7,9 +7,5 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
-  build: {
-    // generate manifest.json in outDir
-    manifest: true,
-  },
   plugins: [react()],
 });
