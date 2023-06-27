@@ -10,7 +10,6 @@ export default defineConfig({
   build: {
     // generate manifest.json in outDir
     manifest: true,
-    outDir: "topperscontest.ca",
   },
   plugins: [react()],
 });
