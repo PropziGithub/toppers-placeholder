@@ -14,6 +14,7 @@ function Index() {
           <p className="md:w-[600px] mx-auto mt-7 font-semibold ">
             Thank you to everyone who submitted a recipe. We are currently
             reviewing all submissions and will reveal the finalists soon.
+            <br />
             <br /> Stay tuned!
           </p>
         </div>
