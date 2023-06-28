@@ -8,10 +8,10 @@ function Index() {
   return (
     <>
       <Header />
-      <main className="grid h-[calc(100vh-200px)] place-items-center bg-primary-dark ">
+      <main className="grid h-[calc(100vh-200px)] place-items-center bg-black ">
         <div className="text-center text-white">
-          <h1 className="text-6xl font-bold">This contest has now closed.</h1>
-          <p className="md:w-[600px] mx-auto mt-10 font-semibold text-xl">
+          <h1 className="text-5xl font-bold">This contest has now closed.</h1>
+          <p className="md:w-[600px] mx-auto mt-7 font-semibold">
             Thank you to everyone who submitted a recipe. We are currently
             reviewing all submissions and will reveal the finalists soon. Stay
             tuned!

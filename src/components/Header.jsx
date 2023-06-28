@@ -1,12 +1,11 @@
-import React from "react";
-import  Container  from "@/components/Container";
-import Logo from "@/components/Logo";
+import Container from "@/components/Container";
+import HeaderLogo from "@/components/HeaderLogo";
 
 const Header = () => {
   return (
     <section className="bg-[#FFFFFF]">
       <Container className="flex justify-center items-center px-4 py-6">
-        <Logo className="h-10 w-auto" />
+        <HeaderLogo className="h-14 w-auto" />
       </Container>
     </section>
   );
