@@ -5,27 +5,28 @@ const Footer = () => {
   return (
     <section className="bg-primary-light py-2">
       <Container>
-        <div className="flex flex-col gap-y-2 md:gap-y-0 md:flex-row items-center justify-between pt-6">
+        <div className="flex  justify-between items-center h-[100px] ">
           <div className="h-[46px]">
             <img src={"./footer-logo.png"} alt="logo" className="h-full" />
           </div>
-          <div>
-            <span className="text-[14px] md:text-[18px] md:mr-12 mr-0 text-[#FFFFFF] leading-[1.6px] font-bold">
-              <span className="cursor-pointer hover:underline">
-                <Link to={"/rules"} className="font-bold">
-                  Contest Rules
-                </Link>
-              </span>{" "}
+          <div className="flex flex-col justify-center items-center">
+            <p className="text-[#FFFFFF] ">
+              <Link to={"/rules"} className="font-semibold hover:underline">
+                Contest Rules{" "}
+              </Link>
               |{" "}
               <a
                 href="https://www.dropbox.com/s/qwfj5dhxmu0dfy5/Privacy%20Policy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="cursor-pointer hover:underline"
+                className="cursor-pointer hover:underline font-semibold"
               >
                 Privacy Policy
               </a>
-            </span>
+            </p>
+            <p className="mt-6 text-center text-sm text-[#FFFFFF] md:mt-0">
+              Copyright &copy; 2023. All rights Reserved.
+            </p>
           </div>
           <div className="flex space-x-6 mt-2 md:mt-0">
             <a
@@ -54,9 +55,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className="mt-6 text-center text-sm text-[#FFFFFF] md:mt-0">
-          Copyright &copy; 2023. All rights Reserved.
-        </p>
       </Container>
     </section>
   );

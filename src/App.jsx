@@ -8,7 +8,7 @@ function Index() {
   return (
     <>
       <Header />
-      <main className="grid h-[calc(100vh-220px)] place-items-center bg-black px-4">
+      <main className="grid h-[calc(100vh-225px)] place-items-center bg-black px-4">
         <div className="text-center text-white">
           <h1 className="text-5xl font-bold">This contest has now closed.</h1>
           <p className="md:w-[600px] mx-auto mt-7 font-semibold ">

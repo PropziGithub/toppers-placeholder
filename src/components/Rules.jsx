@@ -6,7 +6,7 @@ export default function Rules() {
   }, []);
   return (
     <section>
-      <div className="bg-primary-dark  p-10 mb-10">
+      <div className="bg-primary-light  p-10 mb-10">
         <div className="max-w-2xl mx-auto text-center font-semibold text-[#FFFFFF]">
           <h3>
             Topper’s Pizza “Design Our Next Recipe Pizza” Contest (the
