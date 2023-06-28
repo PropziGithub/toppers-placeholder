@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <section className="bg-primary-light py-2">
       <Container>
-        <div className="flex  justify-between items-center h-[100px] ">
+        <div className="flex flex-col md:flex-row  justify-between items-center md:h-[100px] py-5 ">
           <div className="h-[46px]">
             <img src={"./footer-logo.png"} alt="logo" className="h-full" />
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="md:flex flex-col justify-center items-center  my-5 md:my-0">
             <p className="text-[#FFFFFF] ">
               <Link to={"/rules"} className="font-semibold hover:underline">
                 Contest Rules{" "}
@@ -24,7 +24,7 @@ const Footer = () => {
                 Privacy Policy
               </a>
             </p>
-            <p className="mt-6 text-center text-sm text-[#FFFFFF] md:mt-0">
+            <p className="text-center text-sm text-[#FFFFFF] md:mt-0">
               Copyright &copy; 2023. All rights Reserved.
             </p>
           </div>
