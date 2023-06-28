@@ -1,5 +1,4 @@
 import Container from "@/components/Container";
-import logo from "@/assets/footer_logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
       <Container>
         <div className="flex flex-col gap-y-2 md:gap-y-0 md:flex-row items-center justify-between pt-6">
           <div className="h-[46px]">
-            <img src={logo} alt="logo" className="h-full" />
+            <img src={"./footer-logo.png"} alt="logo" className="h-full" />
           </div>
           <div>
             <span className="text-[14px] md:text-[18px] md:mr-12 mr-0 text-[#FFFFFF] leading-[1.6px] font-bold">
