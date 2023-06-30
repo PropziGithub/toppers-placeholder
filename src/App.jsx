@@ -10,13 +10,18 @@ function Index() {
       <Header />
       <main className="grid h-[calc(100vh-225px)] place-items-center bg-black px-4">
         <div className="text-center text-white">
-          <h1 className="text-5xl font-bold">This contest has now closed.</h1>
-          <p className="md:w-[600px] mx-auto mt-7 font-semibold ">
-            Thank you to everyone who submitted a recipe. We are currently
-            reviewing all submissions and will reveal the finalists soon.
-            <br />
-            <br /> Stay tuned!
+          <h1 className="text-5xl font-bold">This contest is now closed.</h1>
+          <p className="md:w-[850px] mx-auto mt-7 font-semibold ">
+            A sincere thanks to everyone who submitted an entry. We were
+            delightfully overwhelmed by the number of entries we received and so
+            it may take us a little longer than anticipated to select the
+            finalists. Keep checking here to see the final recipes and for your
+            chance to vote for your favourite!
           </p>
+
+          <div className="flex justify-center items-center mt-10 w-[187px] h-[100px] mx-auto">
+            <img src="./toppers-main-section-logo.png" className="w-full h-full" />
+          </div>
         </div>
       </main>
       <Footer />
